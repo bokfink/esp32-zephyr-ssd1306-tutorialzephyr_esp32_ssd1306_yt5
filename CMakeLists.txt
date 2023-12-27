@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-set(BOARD esp32)
+set(BOARD esp32_devkitc_wrover)
 
 find_package(Zephyr)
 project(zephyr_ssd1306)
